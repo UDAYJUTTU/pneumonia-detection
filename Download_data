@@ -1,0 +1,6 @@
+!pipinstallpydicom
+!pipinstall - U - qkaggle
+!mkdir - p ~ /.kaggle
+!echo '{"username":"harinig","key":"b96bee2360336fbc3f469621f63fba80"}' > ~ /.kaggle / kaggle.json
+!chmod 600 ~ /.kaggle / kaggle.json
+!kaggle competitions download - c rsna - pneumonia - detection - challenge
